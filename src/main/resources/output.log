@@ -1,0 +1,105 @@
+02:08:09.879 [main] INFO  com.fdmgroup.CurrencyConverter.Runner - 
+
+ -- Start of the Program --
+02:08:09.986 [main] INFO  com.fdmgroup.CurrencyConverter.Runner - 
+
+Transaction No.1
+02:08:10.056 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+name: Bob
+02:08:10.056 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+isUserValid value is true
+02:08:10.056 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+cad original amount: 120.0
+02:08:10.057 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+cad amount after deduction: 20.0
+02:08:10.057 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+usd original amount: 100.0
+02:08:10.061 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+cad inverse rate: 0.76984464128194
+02:08:10.061 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+usd rate: 1.0
+02:08:10.061 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+Transaction amount in cad : 100.0
+02:08:10.061 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+Transaction amount converted from cad to usd: 100.0 * 0.76984464128194 * 1.0 = 76.98446412819399
+02:08:10.061 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+usd amount added: 176.984464128194
+02:08:10.092 [main] INFO  com.fdmgroup.CurrencyConverter.Runner - 
+
+Transaction No.2
+02:08:10.094 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+name: Susan
+02:08:10.094 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+isUserValid value is true
+02:08:10.094 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+cad original amount: 508.0
+02:08:10.094 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+cad amount after deduction: 488.0
+02:08:10.094 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+eur original amount: null
+02:08:10.097 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+cad inverse rate: 0.76984464128194
+02:08:10.097 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+eur rate: 0.98535489535028
+02:08:10.097 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+Transaction amount in cad : 20.0
+02:08:10.097 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+Transaction amount converted from cad to eur: 20.0 * 0.76984464128194 * 0.98535489535028 = 15.171403718926795
+02:08:10.099 [main] INFO  com.fdmgroup.CurrencyConverter.Runner - 
+
+Transaction No.3
+02:08:10.101 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+name: Tommy
+02:08:10.101 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+isUserValid value is true
+02:08:10.101 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+usd original amount: 252.34
+02:08:10.101 [main] ERROR com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+Insufficient usd to perform transaction.
+02:08:10.103 [main] INFO  com.fdmgroup.CurrencyConverter.Runner - 
+
+Transaction No.4
+02:08:10.104 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+name: Bob
+02:08:10.104 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+isUserValid value is true
+02:08:10.105 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+usd original amount: 176.984464128194
+02:08:10.105 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+usd amount after deduction: 146.984464128194
+02:08:10.105 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+hkd original amount: null
+02:08:10.107 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+usd inverse rate: 1.0
+02:08:10.107 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+hkd rate: 7.8487791797709
+02:08:10.107 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+Transaction amount in usd : 30.0
+02:08:10.107 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+Transaction amount converted from usd to hkd: 30.0 * 1.0 * 7.8487791797709 = 235.463375393127
+02:08:10.108 [main] INFO  com.fdmgroup.CurrencyConverter.Runner - 
+
+Transaction No.5
+02:08:10.109 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+name: Bob
+02:08:10.109 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+isUserValid value is true
+02:08:10.109 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+hkd original amount: 235.463375393127
+02:08:10.110 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+hkd amount after deduction: 51.463375393126995
+02:08:10.110 [main] TRACE com.fdmgroup.CurrencyConverter.TransactionProcessor - 
+krw original amount: null
+02:08:10.113 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+hkd inverse rate: 0.1274083493873
+02:08:10.113 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+krw rate: 1374.948768218
+02:08:10.114 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+Transaction amount in hkd : 184.0
+02:08:10.114 [main] TRACE com.fdmgroup.CurrencyConverter.Converter - 
+Transaction amount converted from hkd to krw: 184.0 * 0.1274083493873 * 1374.948768218 = 32233.111361339234
+02:08:10.115 [main] INFO  com.fdmgroup.CurrencyConverter.Runner - 
+
+ -- End of the Program -- 
+
+
